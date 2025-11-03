@@ -1,18 +1,3 @@
-## Project Overview
-
-- **Objective:**
-    
-    To analyze and understand the patterns and relationships that influence **sleep efficiency**.
-    
-- **Focus Areas:**
-    - Cleaning missing values and handling outliers.
-    - Exploring correlations between sleep efficiency and other factors (age, exercise, caffeine, alcohol, etc).
-    - Visualizing patterns, trends, and relationships using Python libraries.
-
-**Dataset Source:** [Kaggle — Sleep Efficiency Dataset](https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency)
-
----
-
 ## Dataset Information
 
 - **Rows:** 452
@@ -91,39 +76,27 @@ plt.show()
 | `caffeine_consumption` | **+0.04** | No clear impact |
 | `age` | **+0.09** | Minimal effect |
 
----
-
 ## Key Visualizations
 
 ### Correlation Heatmap
 
 Shows relationships among all numeric variables.
 
----
-
 ### Deep Sleep Percentage vs Sleep Efficiency
 
 Strong positive relationship — higher deep sleep leads to better sleep efficiency.
-
----
 
 ### Light Sleep Percentage vs Sleep Efficiency
 
 Strong negative relationship — excessive light sleep reduces overall efficiency.
 
----
-
 ### Awakenings vs Sleep Efficiency
 
 More awakenings significantly decrease efficiency.
 
----
-
 ### Alcohol Consumption vs Sleep Efficiency
 
 Alcohol consumption disrupts deep and REM cycles, reducing efficiency.
-
----
 
 ## Insights & Takeaways
 
@@ -141,4 +114,3 @@ Alcohol consumption disrupts deep and REM cycles, reducing efficiency.
 - Dataset size: 452 × 15
 - Outliers handled using IQR
 - Missing data filled with median/mode
-
